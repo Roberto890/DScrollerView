@@ -9,27 +9,18 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/Roberto890/DScrollerView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Roberto890' => 'roberto.jesus.amaral@gmail.com' }
-  s.source           = { :git => 'https://github.com/Roberto890/DScrollerView.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://www.linkedin.com/in/roberto-amaral-88b444153/'
+  s.source           = { :git => 'https://github.com/Roberto890/DScrollerView.git', :tag => "#{s.version}" }
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'Source/**/*.swift'
   s.swift_version = '5.0'
-  s.plataforms = {
-      "ios": "12.0"
+  s.platforms = {
+      "ios": "13.0"
   }
-  
-  
-  
-  # s.resource_bundles = {
-  #   'DScrollerView' => ['DScrollerView/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-s.dependency 'TinyConstraints', '~> 4.0.0'
+  s.dependency 'TinyConstraints'
+  
 end
