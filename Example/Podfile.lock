@@ -1,0 +1,16 @@
+PODS:
+  - DScrollerView (0.1.0)
+
+DEPENDENCIES:
+  - DScrollerView (from `../`)
+
+EXTERNAL SOURCES:
+  DScrollerView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DScrollerView: 79cbaeca2f1c56443ba94647b4fdd569f94f1f2d
+
+PODFILE CHECKSUM: 539dfe3e1f0b25a375d7faf47f8b81750b39a80f
+
+COCOAPODS: 1.11.2

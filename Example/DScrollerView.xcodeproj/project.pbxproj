@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		032C1B547B6F645F8C2D33CC /* DScrollerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DScrollerView.podspec; path = ../DScrollerView.podspec; sourceTree = "<group>"; };
+		032C1B547B6F645F8C2D33CC /* DScrollerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DScrollerView.podspec; path = ../DScrollerView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		11254AA2CDD1C62783A090FB /* Pods-DScrollerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DScrollerView_Example.release.xcconfig"; path = "Target Support Files/Pods-DScrollerView_Example/Pods-DScrollerView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* DScrollerView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DScrollerView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,8 +43,8 @@
 		6169AF7D58F23E95D7BD3D6A /* Pods-DScrollerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DScrollerView_Tests.release.xcconfig"; path = "Target Support Files/Pods-DScrollerView_Tests/Pods-DScrollerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		624D16BEC6020DC32742E258 /* Pods-DScrollerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DScrollerView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DScrollerView_Tests/Pods-DScrollerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B9593004271ECEE5A306F77 /* Pods-DScrollerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DScrollerView_Example.debug.xcconfig"; path = "Target Support Files/Pods-DScrollerView_Example/Pods-DScrollerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7C9A30BB80E850120598D360 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		94E81FCF62ED1A8A5B1EC19E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7C9A30BB80E850120598D360 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		94E81FCF62ED1A8A5B1EC19E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AFEF4DCBCED71199B0CFF509 /* Pods_DScrollerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DScrollerView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFCDF74E1033491262917739 /* Pods_DScrollerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DScrollerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				624D16BEC6020DC32742E258 /* Pods-DScrollerView_Tests.debug.xcconfig */,
 				6169AF7D58F23E95D7BD3D6A /* Pods-DScrollerView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

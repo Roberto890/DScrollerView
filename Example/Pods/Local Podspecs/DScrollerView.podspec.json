@@ -1,0 +1,22 @@
+{
+  "name": "DScrollerView",
+  "version": "0.1.0",
+  "summary": "A short description of DScrollerView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Roberto890/DScrollerView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Roberto890": "roberto.jesus.amaral@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Roberto890/DScrollerView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "DScrollerView/Classes/**/*"
+}
