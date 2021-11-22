@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DScrollerView'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'DScrollerView is a UIScrollView in one line of code'
 
   s.description      = <<-DESC
