@@ -1,24 +1,11 @@
-#
-# Be sure to run `pod lib lint DScrollerView.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
   s.name             = 'DScrollerView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DScrollerView.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'DScrollerView is a UIScrollView in one line of code'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'DScrollerView is a pod to facility your life using UIScrollViews'
                        DESC
 
   s.homepage         = 'https://github.com/Roberto890/DScrollerView'
@@ -26,11 +13,17 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Roberto890' => 'roberto.jesus.amaral@gmail.com' }
   s.source           = { :git => 'https://github.com/Roberto890/DScrollerView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://www.linkedin.com/in/roberto-amaral-88b444153/'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
 
-  s.source_files = 'DScrollerView/Classes/**/*'
+  s.source_files = 'Source/**/*.swift'
+  s.swift_version = '5.0'
+  s.plataforms = {
+      "ios": "12.0"
+  }
+  
+  
   
   # s.resource_bundles = {
   #   'DScrollerView' => ['DScrollerView/Assets/*.png']
@@ -38,5 +31,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+s.dependency 'TinyConstraints', '~> 4.0.0'
 end
